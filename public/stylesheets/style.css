@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+#movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie {
+  margin: 10px;
+  padding: 10px;
+}
+
+#movie-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+#movie-detail > img {
+  padding: 20px;
+}
